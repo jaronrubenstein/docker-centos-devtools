@@ -1,7 +1,7 @@
 FROM centos:latest
 LABEL MAINTAINER "jaron@rubensteintech.com"
 
-# get the lxml pre-requisite installed (it's complicated!)
+# update to latest packages and install CentOS Development tools
 RUN yum -y update && \
     yum -y groupinstall 'Development tools' && \
     yum -y install which openssh-clients

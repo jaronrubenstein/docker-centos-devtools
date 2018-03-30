@@ -1,3 +1,3 @@
-# jaronrubenstein/centos-devtools
+# jaronrubenstein/docker-centos-devtools
 
-Dockerized CentOS with 'Development tools' packages installed.
+Dockerized CentOS 6 with 'Development tools' packages installed.

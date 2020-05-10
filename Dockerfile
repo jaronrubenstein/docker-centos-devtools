@@ -1,4 +1,4 @@
-FROM centos:7
+FROM centos:8
 LABEL MAINTAINER "jaron@rubensteintech.com"
 
 # update to latest packages and install CentOS Development tools

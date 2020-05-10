@@ -4,6 +4,14 @@ Dockerized CentOS with 'Development tools' packages installed.
 
 ## Building Docker Images via CI/CD
 
+To build the CentOS 8 Docker image:
+```
+  git checkout el8
+  ... make edits ...
+  git commit -am 'message'
+  git push origin el8
+```
+
 To build the CentOS 7 Docker image:
 ```
   git checkout master
